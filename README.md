@@ -1,5 +1,5 @@
 # azure-visitor-counter-summary
 A full-stack cloud application demonstrating advanced integration between Azure App Service and Azure Cosmos DB using a CI/CD approach. This project highlight my ability to manage secure cloud configurations and automate web deployments. 
 Infrastructure: Microsoft Azure (App Service, Cosmos DB). Backend: Python Flaskwith Azure SDKs. Automation: GitHub Actions for continuous Deployment. Security: Managed Identity and Environment Variable protection. Building this project required solving several real-world cloud architecture challanges: 1- Secure Authentication: ensuring no sensitive credentials were hard-coded, and in this section i got confused between the Primary Keys and the Azure Connection String for the authentication as secret. But luckily i aware about the mistake. 2- Automated Workflow: Configured a YAML-based GitHub Actions pipeline that automates the build and deployment process upon every push to the repository. 3- Connectivity Troubleshooting: Auditing networking firewalls and ensuring the proper connection strings were used for the NoSQL backend (for trying to resolve the ERROR 403).
-[azure-visitor-counter-screenshot.pdf](https://github.com/user-attachments/files/24882254/azure-visitor-counter-screenshot.pdf)
+
 
